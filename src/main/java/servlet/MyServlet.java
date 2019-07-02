@@ -17,8 +17,8 @@ public class MyServlet implements Servlet {
 
     @Override
     public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {
-        res.getWriter().write("sssssss");
-    }时
+        res.getWriter().write("sssssss删除");
+    }
 
     @Override
     public String getServletInfo() {
